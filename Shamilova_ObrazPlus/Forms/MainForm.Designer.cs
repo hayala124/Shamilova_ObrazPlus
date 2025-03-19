@@ -90,7 +90,7 @@
             // 
             // pictureBoxImageEmployee
             // 
-            this.pictureBoxImageEmployee.Location = new System.Drawing.Point(545, 52);
+            this.pictureBoxImageEmployee.Location = new System.Drawing.Point(550, 52);
             this.pictureBoxImageEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxImageEmployee.Name = "pictureBoxImageEmployee";
             this.pictureBoxImageEmployee.Size = new System.Drawing.Size(88, 80);
