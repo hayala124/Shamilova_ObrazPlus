@@ -79,15 +79,18 @@ namespace Shamilova_ObrazPlus.Forms
             foreach (Control control in container.Controls)
             {
                 if (control is NumericUpDown numericUpDown)
-                {
                     numericUpDown.Value = 0;
-                }
             }
         }
 
         public void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
             ClearAllControls(this);
+        }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вы уверены, что хотите удалить данный материал?", "Удаление", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
         }
     }
 }

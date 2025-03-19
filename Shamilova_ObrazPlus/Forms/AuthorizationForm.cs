@@ -20,7 +20,7 @@ namespace Shamilova_ObrazPlus.Forms
             return employee;
         }
 
-        public static bool Login(string login, string password)
+        private static bool Login(string login, string password)
         {
             using (var dbContext = new ObrazPlus_Db())
             {
